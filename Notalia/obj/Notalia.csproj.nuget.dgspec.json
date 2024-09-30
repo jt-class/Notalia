@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\Notalia.csproj": {}
+    "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\Notalia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\Notalia.csproj": {
+    "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\Notalia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\Notalia.csproj",
+        "projectUniqueName": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\Notalia.csproj",
         "projectName": "Notalia",
-        "projectPath": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\Notalia.csproj",
-        "packagesPath": "C:\\Users\\Gelmore\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\obj\\",
+        "projectPath": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\Notalia.csproj",
+        "packagesPath": "C:\\Users\\micka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gelmore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\micka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,11 +72,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.82, )"
+              "version": "[8.0.72, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.82, )"
+              "version": "[8.0.72, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -115,11 +115,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.82, )"
+              "version": "[8.0.72, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.82, )"
+              "version": "[8.0.72, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -158,11 +158,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.82, )"
+              "version": "[8.0.72, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.82, )"
+              "version": "[8.0.72, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -202,11 +202,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.82, )"
+              "version": "[8.0.72, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.82, )"
+              "version": "[8.0.72, )"
             }
           },
           "imports": [
