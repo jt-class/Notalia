@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Notalia"
+    "\\Notalia",
+    "\\Notalia\\Resources\\Fonts"
   ],
-  "SelectedNode": "\\Notalia\\MauiProgram.cs",
+  "SelectedNode": "\\Notalia\\Notalia.csproj",
   "PreviewInSolutionExplorer": false
 }

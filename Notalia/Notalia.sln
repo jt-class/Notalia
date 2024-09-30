@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notalia", "Notalia.csproj", "{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {557454F0-CBB8-4BDF-8D22-8CAB7A953EBA}
+	EndGlobalSection
+EndGlobal

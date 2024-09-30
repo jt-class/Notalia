@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notalia.SignUpPage"
+             Title="SignUpPage"
+             BackgroundColor="#D6CEC3">
+    <Grid VerticalOptions="FillAndExpand"
+          Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label
+            Text="Notalia"
+            FontSize="40"
+            FontAttributes="Italic"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            Margin="0,30,0,20"/>
+
+        <Frame Grid.Row="1"
+               BackgroundColor="Black"
+               Padding="30"
+               CornerRadius="10"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               WidthRequest="300"
+               HasShadow="False">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <Label
+                    Text="Sign Up"
+                    Grid.Row="0"
+                    FontSize="24"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    Margin="0,0,0,20"/>
+
+                <Entry
+                    x:Name="Name_input"
+                    Placeholder="Name"
+                    Grid.Row="1"
+                    TextColor="Black"
+                    PlaceholderColor="#B0B0B0"
+                    BackgroundColor="White"
+                    Margin="0,5"/>
+                
+                <Entry
+                    x:Name="Email_input"
+                    Placeholder="Email"
+                    Grid.Row="2"
+                    TextColor="Black"
+                    PlaceholderColor="#B0B0B0"
+                    BackgroundColor="White"
+                    Margin="0,5"/>
+
+                <Entry
+                    x:Name="Username_input"
+                    Placeholder="Username"
+                    Grid.Row="3"
+                    TextColor="Black"
+                    PlaceholderColor="#B0B0B0"
+                    BackgroundColor="White"
+                    Margin="0,5"/>
+
+                <Entry
+                    x:Name="Password_input"
+                    Placeholder="Password"
+                    Grid.Row="4"
+                    IsPassword="True"
+                    TextColor="Black"
+                    PlaceholderColor="#B0B0B0"
+                    BackgroundColor="White"
+                    Margin="0,5"/>
+                <Entry
+                    x:Name="ConfirmPassword_input"
+                    Placeholder="Confirm Password"
+                    Grid.Row="5"
+                    IsPassword="True"
+                    TextColor="Black"
+                    PlaceholderColor="#B0B0B0"
+                    BackgroundColor="White"
+                    Margin="0,5"/>
+
+                <Label
+                    x:Name="LoginInstead_redirect"
+                    Text="Already have an account? Login"
+                    Grid.Row="6"
+                    TextColor="#B0B0B0"
+                    FontSize="12"
+                    HorizontalOptions="Center"
+                    Margin="0,15,0,0"/>
+            </Grid>
+        </Frame>
+
+        <Button 
+            Grid.Row="2"
+            x:Name="Done_btn"
+            Text="Done"
+            BackgroundColor="White"
+            TextColor="Black"
+            FontAttributes="Bold"
+            CornerRadius="25"
+            Padding="10,5"
+            Margin="0,20,0,30"
+            HorizontalOptions="Center"
+            VerticalOptions="End"/>
+
+        <Image
+            Source="bow.png"
+            HeightRequest="30"
+            WidthRequest="30"
+            VerticalOptions="Start"
+            HorizontalOptions="Start"
+            Margin="20,10,0,0"/>
+
+        <Image
+            Source="vinyl_record.png"
+            HeightRequest="60"
+            WidthRequest="60"
+            VerticalOptions="End"
+            HorizontalOptions="End"
+            Margin="0,0,20,20"/>
+
+    </Grid>
+</ContentPage>

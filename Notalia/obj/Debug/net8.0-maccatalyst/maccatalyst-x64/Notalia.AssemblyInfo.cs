@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Notalia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f0c81ba163f053cfe4c72aca85fb79b0c7c6fb12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e755b392d7bd009325815bc553e1965ead14463f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Notalia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Notalia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
