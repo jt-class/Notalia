@@ -4,11 +4,13 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\cdscrap.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\checkbox.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\clip.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\empty_checkbox.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\lovedown.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\loveup.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\notalia.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\pola.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\ribbon.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\welcome.png
 obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon.png

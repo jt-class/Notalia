@@ -10,8 +10,8 @@
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
 
-			<Color x:Key="Background">#DFD7CC</Color>
-			
+            <Color x:Key="Background">#DFD7CC</Color>
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>

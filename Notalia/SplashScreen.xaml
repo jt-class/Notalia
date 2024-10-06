@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notalia.SplashScreen"
+             Title="SplashScreen"
+             BackgroundColor="{StaticResource Background}">
+
+    <ScrollView>
+        <AbsoluteLayout
+        Padding="0"
+        Margin="0">
+            <Image
+            Source="loveup.png"
+            AbsoluteLayout.LayoutBounds="70, 0, AutoSize, AutoSize"
+            />
+            <Image
+            Source="lovedown.png"
+            AbsoluteLayout.LayoutBounds="-15, 350, AutoSize, AutoSize"
+            />
+            <Image
+            Source="cdscrap.png"
+            Aspect="AspectFit"
+            AbsoluteLayout.LayoutBounds="225, 350, AutoSize, AutoSize"
+            />
+            <Image
+            Source="notalia.png"
+            Aspect="AspectFit"
+            AbsoluteLayout.LayoutBounds="40, 330, AutoSize, AutoSize"
+            />
+        </AbsoluteLayout>
+    </ScrollView>
+</ContentPage>

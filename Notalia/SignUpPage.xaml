@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notalia.SignUpPage"
              Title="SignUpPage"
-             BackgroundColor="#D6CEC3">
+             BackgroundColor="{StaticResource Background}">
+    
     <Grid VerticalOptions="FillAndExpand"
           Padding="20">
         <Grid.RowDefinitions>
@@ -14,8 +15,8 @@
 
         <Label
             Text="Notalia"
-            FontSize="40"
-            FontAttributes="Italic"
+            FontSize="80"
+            FontFamily="Eleganta"
             HorizontalOptions="Center"
             VerticalOptions="Start"
             Margin="0,30,0,20"/>
@@ -44,6 +45,7 @@
                     Text="Sign Up"
                     Grid.Row="0"
                     FontSize="24"
+                    FontFamily="Delicate"
                     TextColor="White"
                     HorizontalOptions="Center"
                     Margin="0,0,0,20"/>
@@ -53,6 +55,7 @@
                     Placeholder="Name"
                     Grid.Row="1"
                     TextColor="Black"
+                    FontFamily="Delicate"
                     PlaceholderColor="#B0B0B0"
                     BackgroundColor="White"
                     Margin="0,5"/>
@@ -62,6 +65,7 @@
                     Placeholder="Email"
                     Grid.Row="2"
                     TextColor="Black"
+                    FontFamily="Delicate"
                     PlaceholderColor="#B0B0B0"
                     BackgroundColor="White"
                     Margin="0,5"/>
@@ -71,6 +75,7 @@
                     Placeholder="Username"
                     Grid.Row="3"
                     TextColor="Black"
+                    FontFamily="Delicate"
                     PlaceholderColor="#B0B0B0"
                     BackgroundColor="White"
                     Margin="0,5"/>
@@ -81,6 +86,7 @@
                     Grid.Row="4"
                     IsPassword="True"
                     TextColor="Black"
+                    FontFamily="Delicate"
                     PlaceholderColor="#B0B0B0"
                     BackgroundColor="White"
                     Margin="0,5"/>
@@ -90,6 +96,7 @@
                     Grid.Row="5"
                     IsPassword="True"
                     TextColor="Black"
+                    FontFamily="Delicate"
                     PlaceholderColor="#B0B0B0"
                     BackgroundColor="White"
                     Margin="0,5"/>
@@ -99,6 +106,7 @@
                     Text="Already have an account? Login"
                     Grid.Row="6"
                     TextColor="#B0B0B0"
+                    FontFamily="Delicate"
                     FontSize="12"
                     HorizontalOptions="Center"
                     Margin="0,15,0,0"/>
@@ -110,6 +118,7 @@
             x:Name="Done_btn"
             Text="Done"
             BackgroundColor="White"
+            FontFamily="Delicate"
             TextColor="Black"
             FontAttributes="Bold"
             CornerRadius="25"
@@ -120,19 +129,14 @@
 
         <Image
             Source="ribbon.png"
-            HeightRequest="30"
-            WidthRequest="30"
             VerticalOptions="Start"
             HorizontalOptions="Start"
             Margin="20,10,0,0"/>
 
         <Image
             Source="cd.png"
-            HeightRequest="60"
-            WidthRequest="60"
             VerticalOptions="End"
             HorizontalOptions="End"
             Margin="0,0,20,20"/>
-
     </Grid>
 </ContentPage>

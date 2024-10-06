@@ -24,6 +24,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Notalia.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/minet/source/repos/Notalia/Notalia/HelpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notalia.HelpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = HelpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = HelpPage.xaml
+
 [C:/Users/minet/source/repos/Notalia/Notalia/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Notalia.MainPage.xaml
@@ -47,3 +53,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Notalia.SignUpPage.xaml
 build_metadata.AdditionalFiles.TargetPath = SignUpPage.xaml
 build_metadata.AdditionalFiles.RelativePath = SignUpPage.xaml
+
+[C:/Users/minet/source/repos/Notalia/Notalia/SplashScreen.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notalia.SplashScreen.xaml
+build_metadata.AdditionalFiles.TargetPath = SplashScreen.xaml
+build_metadata.AdditionalFiles.RelativePath = SplashScreen.xaml

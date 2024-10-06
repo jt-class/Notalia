@@ -424,4 +424,8 @@
         <Setter Property="SelectedTabColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray200}}" />
     </Style>
 
+    <Style x:Key="SplashTheme" TargetType="ContentPage">
+        <Setter Property="BackgroundImageSource" Value="welcome.png" />
+    </Style>
+
 </ResourceDictionary>

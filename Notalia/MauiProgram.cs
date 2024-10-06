@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.Logging;
-
 namespace Notalia
 {
     public static class MauiProgram
@@ -17,11 +16,8 @@ namespace Notalia
                     fonts.AddFont("Delicate-Caligraphy.ttf", "Delicate");
                 });
 
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
-
             return builder.Build();
         }
     }
 }
+
