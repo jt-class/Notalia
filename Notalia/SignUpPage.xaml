@@ -119,7 +119,7 @@
             VerticalOptions="End"/>
 
         <Image
-            Source="bow.png"
+            Source="ribbon.png"
             HeightRequest="30"
             WidthRequest="30"
             VerticalOptions="Start"
@@ -127,7 +127,7 @@
             Margin="20,10,0,0"/>
 
         <Image
-            Source="vinyl_record.png"
+            Source="cd.png"
             HeightRequest="60"
             WidthRequest="60"
             VerticalOptions="End"

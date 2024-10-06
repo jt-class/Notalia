@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|c:\\users\\minet\\source\\repos\\notalia\\notalia\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|solutionrelative:signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|c:\\users\\minet\\source\\repos\\notalia\\notalia\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|solutionrelative:signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|c:\\users\\minet\\source\\repos\\notalia\\notalia\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|c:\\users\\minet\\source\\repos\\notalia\\notalia\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:55:58.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUpPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\SignUpPage.xaml.cs",
+              "RelativeDocumentMoniker": "SignUpPage.xaml.cs",
+              "ToolTip": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\SignUpPage.xaml.cs",
+              "RelativeToolTip": "SignUpPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:44:36.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignUpPage.xaml",
+              "DocumentMoniker": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\SignUpPage.xaml",
+              "RelativeDocumentMoniker": "SignUpPage.xaml",
+              "ToolTip": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\SignUpPage.xaml",
+              "RelativeToolTip": "SignUpPage.xaml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAC0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-30T00:04:34.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-30T00:02:56.956Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
