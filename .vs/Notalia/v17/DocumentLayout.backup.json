@@ -1,33 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\minet\\source\\repos\\Notalia\\",
+  "WorkspaceRootPath": "C:\\Users\\micka\\source\\repos\\Notalia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notalia\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notalia\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+=======
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+>>>>>>> 0515c45152c57d38c516d920776460fdd6664e8c
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notalia\\MainPage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\AppShell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notalia\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\AppShell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notalia\\AppShell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notalia\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\AppShell.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notalia\\AppShell.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notalia\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notalia\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\AppShell.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notalia\\AppShell.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 0515c45152c57d38c516d920776460fdd6664e8c
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notalia\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Notalia\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -38,58 +58,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+<<<<<<< HEAD
+          "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 5,
+>>>>>>> 0515c45152c57d38c516d920776460fdd6664e8c
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\App.xaml.cs",
               "RelativeDocumentMoniker": "Notalia\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\App.xaml.cs",
               "RelativeToolTip": "Notalia\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T19:25:34.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T19:25:34.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Notalia\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\AppShell.xaml",
+              "RelativeToolTip": "Notalia\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-29T19:09:19.754Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\AppShell.xaml",
-              "RelativeDocumentMoniker": "Notalia\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\AppShell.xaml",
-              "RelativeToolTip": "Notalia\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-29T19:09:19.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Notalia\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs",
               "RelativeToolTip": "Notalia\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T15:46:27.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T15:46:27.312Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\MainPage.xaml",
               "RelativeDocumentMoniker": "Notalia\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\MainPage.xaml",
               "RelativeToolTip": "Notalia\\MainPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -98,42 +123,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+<<<<<<< HEAD
+              "DocumentIndex": 1,
+=======
+              "DocumentIndex": 2,
+>>>>>>> 0515c45152c57d38c516d920776460fdd6664e8c
               "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "Notalia\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\AppShell.xaml.cs",
               "RelativeToolTip": "Notalia\\AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T15:46:18.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T15:46:18.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+<<<<<<< HEAD
+              "DocumentIndex": 2,
+=======
+              "DocumentIndex": 3,
+>>>>>>> 0515c45152c57d38c516d920776460fdd6664e8c
               "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\MauiProgram.cs",
               "RelativeDocumentMoniker": "Notalia\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\MauiProgram.cs",
               "RelativeToolTip": "Notalia\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T15:27:24.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T15:27:24.363Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\App.xaml",
               "RelativeDocumentMoniker": "Notalia\\App.xaml",
-              "ToolTip": "C:\\Users\\minet\\source\\repos\\Notalia\\Notalia\\App.xaml",
+              "ToolTip": "C:\\Users\\micka\\source\\repos\\Notalia\\Notalia\\App.xaml",
               "RelativeToolTip": "Notalia\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-02T15:29:26.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T15:29:26.035Z"
             }
           ]
         }

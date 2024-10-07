@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Notalia",
-    "\\Notalia\\Resources\\Fonts"
+<<<<<<< HEAD
+    "\\Notalia\\Resources\\Images"
+=======
+    "\\Notalia"
+>>>>>>> 0515c45152c57d38c516d920776460fdd6664e8c
   ],
-  "SelectedNode": "\\Notalia\\Notalia.csproj",
   "PreviewInSolutionExplorer": false
 }

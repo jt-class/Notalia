@@ -7,8 +7,17 @@
     Shell.FlyoutBehavior="Disabled"
     Title="Notalia">
 
+    <ShellContent 
+        Title="SignUpPage" 
+        ContentTemplate="{DataTemplate local:SignUpPage}"
+        Route="MainPage"/>
+
+    <ShellContent 
+        Title="MainPage" 
+        ContentTemplate="{DataTemplate local:MainPage}" />
+    
     <ShellContent
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Help" 
+        ContentTemplate="{DataTemplate local:HelpPage}" />
 
 </Shell>

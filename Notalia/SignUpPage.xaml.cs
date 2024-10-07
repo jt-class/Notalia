@@ -1,10 +1,9 @@
-
 namespace Notalia;
 
 public partial class SignUpPage : ContentPage
 {
-	public SignUpPage()
-	{
+    public SignUpPage()
+    {
         InitializeComponent();
-	}
+    }
 }
