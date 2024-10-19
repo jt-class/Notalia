@@ -8,7 +8,7 @@
     Title="Notalia">
 
     <ShellContent 
-        Title="SignUpPage" 
+       
         ContentTemplate="{DataTemplate local:SignUpPage}"
         Route="MainPage"/>
 
@@ -19,5 +19,9 @@
     <ShellContent
         Title="Help" 
         ContentTemplate="{DataTemplate local:HelpPage}" />
+
+    <ShellContent
+     Title="HomePage" 
+     ContentTemplate="{DataTemplate local:HomePage}" />
 
 </Shell>

@@ -4,8 +4,113 @@
              x:Class="Notalia.MainPage"
 			 BackgroundColor="{StaticResource Background}">
 
-	<ScrollView>
-		
-	</ScrollView>
+    <StackLayout>
+        <Label
+            Text="Notalia"
+            FontSize="128"
+            FontFamily="Kapakana"
+            HorizontalOptions="Center"/>
+        <HorizontalStackLayout>
+            <Image
+                Source="pola.png"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"/>
+        </HorizontalStackLayout>
+        <VerticalStackLayout
+            >
+            <Image
+                Source="ribbon.png"
+                Margin="0,-560,0,0"
+                HorizontalOptions="Start"/>
+            <Image
+                Source="clip.png"
+                Margin="0,-125,0,0"/>
+            <Label
+                Text="Log In"
+                FontSize="32"
+                FontFamily="JudsonBold"
+                TextColor="White"
+                HorizontalOptions="Center"/>
+            <Frame 
+                Padding="10"
+                WidthRequest="250"
+                HeightRequest="50"
+                BackgroundColor="Transparent"
+                HasShadow="False"
+                Margin="0,40,0,0">
+                <Entry
+                x:Name="username_entry"
+                Placeholder="Username/Email"
+                WidthRequest="250"
+                HeightRequest="50"
+                BackgroundColor="White"/>
+            </Frame>
+            <Frame 
+                Padding="10"
+                WidthRequest="250"
+                HeightRequest="50"
+                BackgroundColor="Transparent"
+                HasShadow="False"
+                Margin="0,40,0,0">
+                <Entry
+                x:Name="password_entry"
+                Placeholder="Password"
+                WidthRequest="250"
+                HeightRequest="50"
+                BackgroundColor="White"/>
+            </Frame>
+            <HorizontalStackLayout
+                Margin="60,0,0,0">
+                <CheckBox
+                    Margin="0,0,0,0"
+                    x:Name="rememberme_cb"
+                    IsChecked="False"
+                    CheckedChanged="OnCheckBoxCheckedChanged"/>
+                <Label
+                    Margin="0,14,0,0"
+                    Text="Remember Me"
+                    FontFamily="Judson"
+                    FontSize="12"
+                    TextColor="White"/>
+                <Button
+                    Text="Forgot password"
+                    FontFamily="JudsonBold"
+                    FontSize="12"
+                    Margin="40,0,0,0"
+                    BackgroundColor="Transparent"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label
+                    Text="Don't have an account?"
+                    FontFamily="Judson"
+                    Margin="45,110,0,0"/>
+                <Button
+                    Text="Sign up"
+                    FontFamily="JudsonBold"
+                    TextColor="Black"
+                    Margin="-10,97,0,0"
+                    BackgroundColor="Transparent"
+                    Clicked="ToSignUp"/>
+            </HorizontalStackLayout>
+            <Button
+                Text="Done"
+                FontSize="30"
+                FontFamily="JudsonBold"
+                TextColor="Black"
+                WidthRequest="150"
+                HeightRequest="55"
+                BackgroundColor="White"
+                BorderColor="Black"
+                BorderWidth="1"
+                CornerRadius="50"
+                Margin="0,70,0,0"
+                Clicked="OnDone"/>
+            <Image
+                Source="cd.png"
+                Margin="280,-120,0,0"/>
+
+
+        </VerticalStackLayout>
+    </StackLayout>
 
 </ContentPage>

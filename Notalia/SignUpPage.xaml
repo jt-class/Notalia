@@ -2,7 +2,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notalia.SignUpPage"
-             Title="SignUpPage"
              BackgroundColor="{StaticResource Background}">
     
     <Grid VerticalOptions="FillAndExpand"
@@ -16,10 +15,10 @@
         <Label
             Text="Notalia"
             FontSize="80"
-            FontFamily="Eleganta"
+            FontFamily="Kapakana"
             HorizontalOptions="Center"
             VerticalOptions="Start"
-            Margin="0,30,0,20"/>
+            Margin="0,10,0,20"/>
 
         <Frame Grid.Row="1"
                BackgroundColor="Black"
@@ -28,6 +27,7 @@
                VerticalOptions="Center"
                HorizontalOptions="Center"
                WidthRequest="300"
+               HeightRequest="450"
                HasShadow="False">
 
             <Grid>
@@ -58,8 +58,9 @@
                     FontFamily="Delicate"
                     PlaceholderColor="#B0B0B0"
                     BackgroundColor="White"
-                    Margin="0,5"/>
-                
+                    Margin="0,5">
+                </Entry>
+
                 <Entry
                     x:Name="Email_input"
                     Placeholder="Email"
@@ -100,16 +101,25 @@
                     PlaceholderColor="#B0B0B0"
                     BackgroundColor="White"
                     Margin="0,5"/>
-
-                <Label
+                <HorizontalStackLayout
+                    Grid.Row="6">
+                    <Label
                     x:Name="LoginInstead_redirect"
-                    Text="Already have an account? Login"
-                    Grid.Row="6"
+                    Text="Already have an account?"
                     TextColor="#B0B0B0"
                     FontFamily="Delicate"
                     FontSize="12"
-                    HorizontalOptions="Center"
+                    HorizontalOptions="Start"
                     Margin="0,15,0,0"/>
+                    <Button
+                        Text="Login"
+                        TextColor="White"
+                        FontSize="12"
+                        WidthRequest="60"
+                        BackgroundColor="Transparent"
+                        Margin="-10,-2,0,0"
+                        Clicked="ToLogInPage"/>
+                </HorizontalStackLayout>
             </Grid>
         </Frame>
 
@@ -124,19 +134,23 @@
             CornerRadius="25"
             Padding="10,5"
             Margin="0,20,0,30"
+            WidthRequest="120"
             HorizontalOptions="Center"
-            VerticalOptions="End"/>
+            VerticalOptions="End"
+            Clicked="OnDone"/>
 
         <Image
+            Grid.Row="0"
             Source="ribbon.png"
             VerticalOptions="Start"
             HorizontalOptions="Start"
-            Margin="20,10,0,0"/>
+            Margin="0,80,0,0"/>
 
         <Image
+            Grid.Row="2"
             Source="cd.png"
             VerticalOptions="End"
             HorizontalOptions="End"
-            Margin="0,0,20,20"/>
+            Margin="0,0,0,100"/>
     </Grid>
 </ContentPage>

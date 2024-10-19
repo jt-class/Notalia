@@ -57,6 +57,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\Judson-Bold.ttf" />
+	  <None Remove="Resources\Fonts\Judson-Italic.ttf" />
+	  <None Remove="Resources\Fonts\Judson-Regular.ttf" />
+	  <None Remove="Resources\Fonts\Judson.zip" />
+	  <None Remove="Resources\Fonts\Kapakana.ttf" />
 	  <None Remove="Resources\Images\bow.png" />
 	  <None Remove="Resources\Images\vinyl_record.png" />
 	</ItemGroup>
@@ -78,6 +83,12 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="HelpPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="HomePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NewPage1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="SignUpPage.xaml">

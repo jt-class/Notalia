@@ -1,0 +1,60 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notalia.HomePage"
+             BackgroundColor="White"
+             Title="HomePage">
+
+    <HorizontalStackLayout>
+        <Button
+            x:Name="Settings_btn"
+            Text="Settings"
+            WidthRequest="240"
+            HeightRequest="450"
+            Margin="20,0,0,0"
+            CornerRadius="40"
+            BackgroundColor="#CAD0B7">
+            <Button.Shadow>
+                <Shadow Brush="Black"
+                Opacity="0.6"
+                Radius="10"
+                Offset="-10,5" />
+            </Button.Shadow>
+        </Button>
+        <Button
+            x:Name="Invites_btn"
+            Text="Invites"
+            WidthRequest="240"
+            HeightRequest="450"
+            Margin="-190,0,0,0"
+            CornerRadius="40"
+            BackgroundColor="#E7D7C8">
+            <Button.Shadow>
+                <Shadow Brush="Black"
+                Opacity="0.6"
+                Radius="10"
+                Offset="-10,5" />
+            </Button.Shadow>
+        </Button>
+        <Button
+            x:Name="Scrapbooks_btn"
+            Text="Scrapbooks"
+            TextTransform="Uppercase"
+            TextColor="Black"
+            FontFamily="JudsonBold"
+            FontSize="24"
+            WidthRequest="240"
+            HeightRequest="450"
+            Margin="-180,0,0,0"
+            CornerRadius="40"
+            BackgroundColor="#DFD7CC">
+            <Button.Shadow>
+                <Shadow Brush="Black"
+                Opacity="0.6"
+                Radius="10"
+                Offset="-10,5" />
+            </Button.Shadow>
+        </Button>
+
+    </HorizontalStackLayout>
+
+</ContentPage>
