@@ -3,58 +3,66 @@
              x:Class="Notalia.HomePage"
              BackgroundColor="White"
              Title="HomePage">
-
-    <HorizontalStackLayout>
-        <Button
-            x:Name="Settings_btn"
-            Text="Settings"
-            WidthRequest="240"
-            HeightRequest="450"
-            Margin="20,0,0,0"
-            CornerRadius="40"
-            BackgroundColor="#CAD0B7">
-            <Button.Shadow>
-                <Shadow Brush="Black"
-                Opacity="0.6"
-                Radius="10"
-                Offset="-10,5" />
-            </Button.Shadow>
-        </Button>
-        <Button
-            x:Name="Invites_btn"
-            Text="Invites"
-            WidthRequest="240"
-            HeightRequest="450"
-            Margin="-190,0,0,0"
-            CornerRadius="40"
-            BackgroundColor="#E7D7C8">
-            <Button.Shadow>
-                <Shadow Brush="Black"
-                Opacity="0.6"
-                Radius="10"
-                Offset="-10,5" />
-            </Button.Shadow>
-        </Button>
-        <Button
-            x:Name="Scrapbooks_btn"
-            Text="Scrapbooks"
-            TextTransform="Uppercase"
-            TextColor="Black"
+    <Grid>
+        <Image
+            Source="home_bg.png"
+            Aspect="AspectFill"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"/>
+        <Label
+            Text="Notalia"
             FontFamily="JudsonBold"
-            FontSize="24"
-            WidthRequest="240"
-            HeightRequest="450"
-            Margin="-180,0,0,0"
-            CornerRadius="40"
-            BackgroundColor="#DFD7CC">
-            <Button.Shadow>
-                <Shadow Brush="Black"
-                Opacity="0.6"
-                Radius="10"
-                Offset="-10,5" />
-            </Button.Shadow>
-        </Button>
+            FontSize="18"
+            TextColor="Black"
+            Margin="20,30,0,0"
+            TextTransform="Uppercase"
+            VerticalOptions="Start"
+            HorizontalOptions="Start" />
+        <CarouselView x:Name="carousel_View"
+                      VerticalOptions="Center"
+                      HorizontalOptions="Center">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Button
+                            Text="{Binding Text}" 
+                            BackgroundColor="{Binding BackgroundColor}"
+                            FontFamily="JudsonBold"
+                            FontSize="32"
+                            TextColor="Black"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            WidthRequest="326"
+                            HeightRequest="530"
+                            CornerRadius="40"
+                            Clicked="OnButtonClicked"
+                            BorderColor="Black"
+                            BorderWidth="1">
+                            
+                            <!-- Shadow effect -->
+                            <Button.Shadow>
+                                <Shadow 
+                                    Brush="Black"
+                                    Opacity="0.5"
+                                    Offset="10,10"
+                                    Radius="20"/>
+                            </Button.Shadow>
+                        </Button>
+                        <Image
+                            Source="dot.png"
+                            WidthRequest="80"
+                            Margin="0,50,0,0"/>
+                    </Grid>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
 
-    </HorizontalStackLayout>
-
+            <!-- Indicators (Optional) -->
+            <CarouselView.IndicatorView>
+                <IndicatorView Count="3" 
+                              IndicatorColor="LightGray" 
+                              SelectedIndicatorColor="Black" 
+                              HorizontalOptions="Center"/>
+            </CarouselView.IndicatorView>
+        </CarouselView>
+    </Grid>
 </ContentPage>

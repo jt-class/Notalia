@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|c:\\users\\gelmore\\source\\repos\\notalia\\notalia\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|c:\\users\\gelmore\\source\\repos\\notalia\\notalia\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|c:\\users\\gelmore\\source\\repos\\notalia\\notalia\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|c:\\users\\gelmore\\source\\repos\\notalia\\notalia\\buttonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|solutionrelative:buttonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|c:\\users\\gelmore\\source\\repos\\notalia\\notalia\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,14 +47,6 @@
       "RelativeMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|solutionrelative:signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|c:\\users\\gelmore\\source\\repos\\notalia\\notalia\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|c:\\users\\gelmore\\source\\repos\\notalia\\notalia\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|c:\\users\\gelmore\\source\\repos\\notalia\\notalia\\platforms\\android\\androidmanifest.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
       "RelativeMoniker": "D:0:0:{23BEECBA-4C0F-45C3-9AE1-8414FFDC5AC9}|Notalia.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
     }
@@ -62,20 +66,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-19T09:42:39.051Z",
+              "DocumentIndex": 3,
+              "Title": "ButtonModel.cs",
+              "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\ButtonModel.cs",
+              "RelativeDocumentMoniker": "ButtonModel.cs",
+              "ToolTip": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\ButtonModel.cs",
+              "RelativeToolTip": "ButtonModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T12:09:04.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T09:12:26.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\HomePage.xaml.cs",
+              "RelativeToolTip": "HomePage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T03:53:19.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\HomePage.xaml",
+              "RelativeDocumentMoniker": "HomePage.xaml",
+              "ToolTip": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\HomePage.xaml*",
+              "RelativeToolTip": "HomePage.xaml*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAhwCUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-19T03:39:09.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T13:16:19.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
@@ -88,33 +143,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T13:16:19.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\MainPage.xaml.cs*",
-              "RelativeToolTip": "MainPage.xaml.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T09:12:26.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-19T09:42:39.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CustomEntryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\CustomEntryHandler.cs",
               "RelativeDocumentMoniker": "CustomEntryHandler.cs",
@@ -122,12 +163,11 @@
               "RelativeToolTip": "CustomEntryHandler.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAA8wBMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T08:31:01.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T08:31:01.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
@@ -135,12 +175,11 @@
               "RelativeToolTip": "MauiProgram.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T07:05:44.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T07:05:44.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SignUpPage.xaml",
               "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\SignUpPage.xaml",
               "RelativeDocumentMoniker": "SignUpPage.xaml",
@@ -148,12 +187,11 @@
               "RelativeToolTip": "SignUpPage.xaml",
               "ViewState": "AgIAAHIAAAAAAAAAAAAAAHEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-30T00:04:34.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T00:04:34.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "SignUpPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\SignUpPage.xaml.cs",
               "RelativeDocumentMoniker": "SignUpPage.xaml.cs",
@@ -161,37 +199,11 @@
               "RelativeToolTip": "SignUpPage.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T00:44:36.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T00:44:36.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\HomePage.xaml",
-              "RelativeDocumentMoniker": "HomePage.xaml",
-              "ToolTip": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\HomePage.xaml",
-              "RelativeToolTip": "HomePage.xaml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAnwC0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-19T03:39:09.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\HomePage.xaml.cs",
-              "RelativeDocumentMoniker": "HomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\HomePage.xaml.cs",
-              "RelativeToolTip": "HomePage.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T03:53:19.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Users\\Gelmore\\source\\repos\\Notalia\\Notalia\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",

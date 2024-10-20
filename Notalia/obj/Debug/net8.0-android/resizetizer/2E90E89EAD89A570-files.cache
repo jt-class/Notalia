@@ -3,7 +3,9 @@ obj\Debug\net8.0-android\resizetizer\r\drawable\cd.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\cdscrap.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\checkbox.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\clip.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\dot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\empty_checkbox.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\home_bg.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\icon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\lovedown.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\loveup.png

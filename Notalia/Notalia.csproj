@@ -63,13 +63,15 @@
 	  <None Remove="Resources\Fonts\Judson.zip" />
 	  <None Remove="Resources\Fonts\Kapakana.ttf" />
 	  <None Remove="Resources\Images\bow.png" />
+	  <None Remove="Resources\Images\dot.png" />
+	  <None Remove="Resources\Images\Home_BG.png" />
 	  <None Remove="Resources\Images\vinyl_record.png" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.92" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.92" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -2113,3 +2113,6 @@ C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetiz
 C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetizer\f\Judson-Bold.ttf
 C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetizer\f\Judson-Italic.ttf
 C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetizer\f\Kapakana.ttf
+C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiLayerDrawable.java
+C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetizer\r\drawable\dot.png
+C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetizer\r\drawable\home_bg.png
