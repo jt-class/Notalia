@@ -2116,3 +2116,7 @@ C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetiz
 C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\android\src\crc6452ffdc5b34af3a0f\MauiLayerDrawable.java
 C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetizer\r\drawable\dot.png
 C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetizer\r\drawable\home_bg.png
+C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetizer\r\drawable\scrapbook_bg.png
+C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetizer\r\drawable\plus_icon.png
+C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetizer\r\drawable\back.png
+C:\Users\Gelmore\source\repos\Notalia\Notalia\obj\Debug\net8.0-android\resizetizer\r\drawable\trash.png

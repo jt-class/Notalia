@@ -54,6 +54,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Notalia.Resources.Styles.S
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/Gelmore/source/repos/Notalia/Notalia/ScrapbookPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Notalia.ScrapbookPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ScrapbookPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ScrapbookPage.xaml
+
 [C:/Users/Gelmore/source/repos/Notalia/Notalia/SignUpPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Notalia.SignUpPage.xaml

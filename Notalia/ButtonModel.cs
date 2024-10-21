@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Notalia
 {
+    //This class is for the Button Models of the HomePage
     public class ButtonModel
     {
         public string Text { get; set; }

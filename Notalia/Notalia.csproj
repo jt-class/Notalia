@@ -62,9 +62,13 @@
 	  <None Remove="Resources\Fonts\Judson-Regular.ttf" />
 	  <None Remove="Resources\Fonts\Judson.zip" />
 	  <None Remove="Resources\Fonts\Kapakana.ttf" />
+	  <None Remove="Resources\Images\back.png" />
 	  <None Remove="Resources\Images\bow.png" />
 	  <None Remove="Resources\Images\dot.png" />
 	  <None Remove="Resources\Images\Home_BG.png" />
+	  <None Remove="Resources\Images\plus_icon.png" />
+	  <None Remove="Resources\Images\scrapbook_bg.png" />
+	  <None Remove="Resources\Images\trash.png" />
 	  <None Remove="Resources\Images\vinyl_record.png" />
 	</ItemGroup>
 
@@ -91,6 +95,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="NewPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ScrapbookPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="SignUpPage.xaml">
