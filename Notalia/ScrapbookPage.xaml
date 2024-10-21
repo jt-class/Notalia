@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notalia.ScrapbookPage"
+             Title="ScrapbookPage">
+    <Grid>
+        <Image
+            Source="scrapbook_bg.png"
+            Aspect="AspectFill"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand" />
+
+        <ImageButton
+            x:Name="back_btn"
+            Source="back.png"
+            VerticalOptions="Start"
+            HorizontalOptions="Start"
+            WidthRequest="30"
+            HeightRequest="30"
+            Margin="30,30,0,0"
+            Clicked="OnBackClicked"/>
+
+        <ImageButton
+            x:Name="trash_btn"
+            Source="trash.png"
+            VerticalOptions="Start"
+            HorizontalOptions="End"
+            WidthRequest="30"
+            HeightRequest="30"
+            Margin="0,30,30,0"
+            Clicked="OnTrashButtonClicked"/>
+
+        <CarouselView x:Name="carousel_View"
+                      VerticalOptions="Center"
+                      HorizontalOptions="Center"
+                      Margin="0,20,0,0">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <!-- Entry for New Scrapbook Title (Visible only for the "Add New" button) -->
+                        <Entry
+                            x:Name="title_entry"
+                            IsVisible="{Binding IsAddNew}"
+                            Text="Title"
+                            FontSize="96"
+                            FontFamily="Kapakana"
+                            HorizontalTextAlignment="Center"
+                            VerticalTextAlignment="Center"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Center"
+                            BackgroundColor="Transparent"
+                            WidthRequest="200"
+                            HeightRequest="100"
+                            Margin="0,60,0,0"/>
+
+                        <!-- Label for Saved Scrapbook Titles (Visible only for existing scrapbooks) -->
+                        <Label
+                            Text="{Binding Title}" 
+                            IsVisible="{Binding IsAddNew, Converter={StaticResource InverseBoolConverter}}"
+                            FontSize="24"
+                            FontFamily="Kapakana"
+                            HorizontalTextAlignment="Center"
+                            VerticalTextAlignment="Center"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Center"
+                            BackgroundColor="Transparent"
+                            WidthRequest="200"
+                            HeightRequest="40"
+                            Margin="0,60,0,0"/>
+
+                        <!-- First Button for Adding New Scrapbooks (Visible only for Add New button) -->
+                        <Button
+                            Text="{Binding Text}" 
+                            IsVisible="{Binding IsAddNew}"
+                            BackgroundColor="{Binding BackgroundColor}"
+                            FontFamily="JudsonBold"
+                            FontSize="32"
+                            TextColor="Black"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            WidthRequest="326"
+                            HeightRequest="530"
+                            CornerRadius="40"
+                            Clicked="OnButtonClicked"
+                            BorderColor="Black"
+                            BorderWidth="1"
+                            Margin="0,110,0,0">
+
+                            <!-- Plus Icon in the Center -->
+                            <Button.ImageSource>
+                                <FileImageSource File="plus_icon.png" />
+                            </Button.ImageSource>
+
+                            <!-- Shadow effect -->
+                            <Button.Shadow>
+                                <Shadow 
+                                    Brush="Black"
+                                    Opacity="0.5"
+                                    Offset="10,10"
+                                    Radius="20"/>
+                            </Button.Shadow>
+                        </Button>
+
+                        <!-- ImageButton for Scrapbooks (Only Visible for Existing Scrapbooks) -->
+                        <ImageButton
+                            Source="{Binding ImageSource}" 
+                            IsVisible="{Binding IsAddNew, Converter={StaticResource InverseBoolConverter}}"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            WidthRequest="326"
+                            HeightRequest="530"
+                            CornerRadius="40"
+                            Clicked="OnImageButtonClicked"
+                            Margin="0,110,0,0">
+
+                            <!-- Shadow effect -->
+                            <ImageButton.Shadow>
+                                <Shadow 
+                                    Brush="Black"
+                                    Opacity="0.5"
+                                    Offset="10,10"
+                                    Radius="20"/>
+                            </ImageButton.Shadow>
+                        </ImageButton>
+                    </Grid>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+
+            <!-- IndicatorView (Optional) -->
+            <CarouselView.IndicatorView>
+                <IndicatorView IndicatorColor="LightGray" 
+                               SelectedIndicatorColor="Black" 
+                               HorizontalOptions="Center"/>
+            </CarouselView.IndicatorView>
+        </CarouselView>
+    </Grid>
+</ContentPage>
