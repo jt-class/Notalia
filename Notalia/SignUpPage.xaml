@@ -14,7 +14,7 @@
 
         <Label
             Text="Notalia"
-            FontSize="80"
+            FontSize="100"
             FontFamily="Kapakana"
             HorizontalOptions="Center"
             VerticalOptions="Start"
@@ -44,8 +44,8 @@
                 <Label
                     Text="Sign Up"
                     Grid.Row="0"
-                    FontSize="24"
-                    FontFamily="Delicate"
+                    FontSize="32"
+                    FontFamily="JudsonBold"
                     TextColor="White"
                     HorizontalOptions="Center"
                     Margin="0,0,0,20"/>
@@ -55,7 +55,7 @@
                     Placeholder="Name"
                     Grid.Row="1"
                     TextColor="Black"
-                    FontFamily="Delicate"
+                    FontFamily="Judson"
                     PlaceholderColor="#B0B0B0"
                     BackgroundColor="White"
                     Margin="0,5">
@@ -66,7 +66,7 @@
                     Placeholder="Email"
                     Grid.Row="2"
                     TextColor="Black"
-                    FontFamily="Delicate"
+                    FontFamily="Judson"
                     PlaceholderColor="#B0B0B0"
                     BackgroundColor="White"
                     Margin="0,5"/>
@@ -76,7 +76,7 @@
                     Placeholder="Username"
                     Grid.Row="3"
                     TextColor="Black"
-                    FontFamily="Delicate"
+                    FontFamily="Judson"
                     PlaceholderColor="#B0B0B0"
                     BackgroundColor="White"
                     Margin="0,5"/>
@@ -87,7 +87,7 @@
                     Grid.Row="4"
                     IsPassword="True"
                     TextColor="Black"
-                    FontFamily="Delicate"
+                    FontFamily="Judson"
                     PlaceholderColor="#B0B0B0"
                     BackgroundColor="White"
                     Margin="0,5"/>
@@ -97,27 +97,28 @@
                     Grid.Row="5"
                     IsPassword="True"
                     TextColor="Black"
-                    FontFamily="Delicate"
+                    FontFamily="Judson"
                     PlaceholderColor="#B0B0B0"
                     BackgroundColor="White"
                     Margin="0,5"/>
                 <HorizontalStackLayout
                     Grid.Row="6">
                     <Label
-                    x:Name="LoginInstead_redirect"
-                    Text="Already have an account?"
-                    TextColor="#B0B0B0"
-                    FontFamily="Delicate"
-                    FontSize="12"
-                    HorizontalOptions="Start"
-                    Margin="0,15,0,0"/>
+                        x:Name="LoginInstead_redirect"
+                        Text="Already have an account?"
+                        TextColor="#B0B0B0"
+                        FontFamily="Judson"
+                        FontSize="12"
+                        HorizontalOptions="Start"
+                        Margin="0,5,0,0"/>
                     <Button
                         Text="Login"
                         TextColor="White"
                         FontSize="12"
                         WidthRequest="60"
+                        FontFamily="JudsonBold"
                         BackgroundColor="Transparent"
-                        Margin="-10,-2,0,0"
+                        Margin="-10,-10,0,0"
                         Clicked="ToLogInPage"/>
                 </HorizontalStackLayout>
             </Grid>
@@ -128,23 +129,25 @@
             x:Name="Done_btn"
             Text="Done"
             BackgroundColor="White"
-            FontFamily="Delicate"
+            BorderColor="Black"
+            BorderWidth="1"
+            FontFamily="JudsonBold"
+            FontSize="32"
             TextColor="Black"
-            FontAttributes="Bold"
             CornerRadius="25"
             Padding="10,5"
             Margin="0,20,0,30"
-            WidthRequest="120"
+            WidthRequest="150"
             HorizontalOptions="Center"
             VerticalOptions="End"
             Clicked="OnDone"/>
-
+        
         <Image
             Grid.Row="0"
             Source="ribbon.png"
             VerticalOptions="Start"
             HorizontalOptions="Start"
-            Margin="0,80,0,0"/>
+            Margin="0,90,0,0"/>
 
         <Image
             Grid.Row="2"

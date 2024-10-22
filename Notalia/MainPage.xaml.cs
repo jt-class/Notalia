@@ -25,10 +25,9 @@
         {
             await Navigation.PushAsync(new HomePage());
         }
-        private async void ToSignUp(object sender, EventArgs e)
+        public async void ToSignUp(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new SignUpPage());
         }
     }
-
 }

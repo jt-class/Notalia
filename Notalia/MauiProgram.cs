@@ -10,10 +10,6 @@ namespace Notalia
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                    fonts.AddFont("Eleganta.ttf", "Eleganta");
-                    fonts.AddFont("Delicate-Caligraphy.ttf", "Delicate");
                     fonts.AddFont("Judson-Regular.ttf", "Judson");
                     fonts.AddFont("Judson-Bold.ttf", "JudsonBold");
                     fonts.AddFont("Judson-Italic.ttf", "JudsonItalic");

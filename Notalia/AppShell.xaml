@@ -5,23 +5,31 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Notalia"
     Shell.FlyoutBehavior="Disabled"
+    Shell.FlyoutItemIsVisible="False"
     Title="Notalia">
 
-    <ShellContent 
-       
-        ContentTemplate="{DataTemplate local:SignUpPage}"
-        Route="MainPage"/>
+    <ShellContent
+        Title="SignUpPage"
+        ContentTemplate="{DataTemplate local:SignUpPage}" />
 
     <ShellContent 
         Title="MainPage" 
         ContentTemplate="{DataTemplate local:MainPage}" />
     
     <ShellContent
-        Title="Help" 
+        Title="HelpPage" 
         ContentTemplate="{DataTemplate local:HelpPage}" />
 
     <ShellContent
-     Title="HomePage" 
-     ContentTemplate="{DataTemplate local:HomePage}" />
+        Title="HomePage" 
+        ContentTemplate="{DataTemplate local:HomePage}" />
+
+    <ShellContent
+        Title="SettingsPage" 
+        ContentTemplate="{DataTemplate local:SettingsPage}" />
+
+    <ShellContent
+        Title="ScrapbookPage" 
+        ContentTemplate="{DataTemplate local:ScrapbookPage}" />
 
 </Shell>

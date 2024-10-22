@@ -5,6 +5,7 @@ public partial class SignUpPage : ContentPage
     public SignUpPage()
     {
         InitializeComponent();
+        Shell.SetNavBarIsVisible(this, false);
     }
     public async void OnDone(object sender, EventArgs e)
     {

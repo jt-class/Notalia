@@ -57,6 +57,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Platforms\Android\Resources\values\styles.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Fonts\Judson-Bold.ttf" />
 	  <None Remove="Resources\Fonts\Judson-Italic.ttf" />
 	  <None Remove="Resources\Fonts\Judson-Regular.ttf" />
@@ -70,6 +74,10 @@
 	  <None Remove="Resources\Images\scrapbook_bg.png" />
 	  <None Remove="Resources\Images\trash.png" />
 	  <None Remove="Resources\Images\vinyl_record.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\drawable\welcome.png" />
 	</ItemGroup>
 
 	<ItemGroup>

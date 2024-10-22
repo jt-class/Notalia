@@ -29,6 +29,7 @@ public partial class HomePage : ContentPage
         if (buttonText == "Settings")
         {
             // Perform action for Settings
+            await Navigation.PushAsync(new SettingsPage());
         }
         else if (buttonText == "Scrapbooks")
         {

@@ -7,8 +7,9 @@
     <StackLayout>
         <Label
             Text="Notalia"
-            FontSize="128"
+            FontSize="100"
             FontFamily="Kapakana"
+            Padding="10"
             HorizontalOptions="Center"/>
         <HorizontalStackLayout>
             <Image
@@ -16,8 +17,7 @@
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="FillAndExpand"/>
         </HorizontalStackLayout>
-        <VerticalStackLayout
-            >
+        <VerticalStackLayout>
             <Image
                 Source="ribbon.png"
                 Margin="0,-560,0,0"
@@ -30,6 +30,7 @@
                 FontSize="32"
                 FontFamily="JudsonBold"
                 TextColor="White"
+                Padding="10"
                 HorizontalOptions="Center"/>
             <Frame 
                 Padding="10"
@@ -37,13 +38,15 @@
                 HeightRequest="50"
                 BackgroundColor="Transparent"
                 HasShadow="False"
-                Margin="0,40,0,0">
+                Margin="0,20,0,0">
                 <Entry
-                x:Name="username_entry"
-                Placeholder="Username/Email"
-                WidthRequest="250"
-                HeightRequest="50"
-                BackgroundColor="White"/>
+                    x:Name="username_entry"
+                    Placeholder="Username/Email"
+                    WidthRequest="250"
+                    HeightRequest="50"
+                    FontFamily="Judson"
+                    BackgroundColor="White"
+                    FontSize="20"/>
             </Frame>
             <Frame 
                 Padding="10"
@@ -53,11 +56,13 @@
                 HasShadow="False"
                 Margin="0,40,0,0">
                 <Entry
-                x:Name="password_entry"
-                Placeholder="Password"
-                WidthRequest="250"
-                HeightRequest="50"
-                BackgroundColor="White"/>
+                    x:Name="password_entry"
+                    Placeholder="Password"
+                    WidthRequest="250"
+                    HeightRequest="50"
+                    FontFamily="Judson"
+                    BackgroundColor="White"
+                    FontSize="20"/>
             </Frame>
             <HorizontalStackLayout
                 Margin="60,0,0,0">
@@ -85,30 +90,33 @@
                     FontFamily="Judson"
                     Margin="45,110,0,0"/>
                 <Button
-                    Text="Sign up"
+                    Text="SignUp"
                     FontFamily="JudsonBold"
                     TextColor="Black"
                     Margin="-10,97,0,0"
                     BackgroundColor="Transparent"
                     Clicked="ToSignUp"/>
             </HorizontalStackLayout>
-            <Button
+            <Button 
+                x:Name="Done_btn"
                 Text="Done"
-                FontSize="30"
-                FontFamily="JudsonBold"
-                TextColor="Black"
-                WidthRequest="150"
-                HeightRequest="55"
                 BackgroundColor="White"
                 BorderColor="Black"
                 BorderWidth="1"
-                CornerRadius="50"
-                Margin="0,70,0,0"
+                FontFamily="JudsonBold"
+                FontSize="32"
+                TextColor="Black"
+                CornerRadius="25"
+                Padding="10,5"
+                Margin="0,100,0,0"
+                WidthRequest="150"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
                 Clicked="OnDone"/>
+
             <Image
                 Source="cd.png"
-                Margin="280,-120,0,0"/>
-
+                Margin="300,-160,0,0"/>
 
         </VerticalStackLayout>
     </StackLayout>

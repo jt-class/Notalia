@@ -16,7 +16,7 @@
               WidthRequest ="150"
               HeightRequest="150"
               AbsoluteLayout.LayoutBounds ="-75, -40" />
-            <!-- Clicked="OnIconButtonClicked"/> -->
+            <!--Clicked="OnButtonClicked"/> -->
 
             <Label
                 Text="Help"
